@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 70%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background-color: green;
+}
+
+#display {
+  width: 97%;
+  margin-left: 1.5%;
+  padding: 5px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#demo {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 4px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="button"] {
+  background-color: rgb(206, 201, 201);
+  padding: 4px;
+
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+}

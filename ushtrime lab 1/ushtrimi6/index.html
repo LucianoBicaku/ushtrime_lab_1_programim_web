@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="dashboard">
+        <div class="cart">Your Cart</div>
+        <div class="header">
+          <li><span>Item</span></li>
+          <li>Qty</li>
+          <li>Total</li>
+        </div>
+        <div class="item">
+          <div class="item__info">
+            <img src="./sneaker.jpg" />
+            <div>
+              <h4>Sneakers</h4>
+              <ul>
+                <li>Size:37</li>
+                <li>Color: Gary</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item__qty">
+            <button>-</button>
+            <input value="1" />
+            <button>+</button>
+          </div>
+          <div class="total">$ 30.00</div>
+        </div>
+        <div class="item">
+          <div class="item__info">
+            <img src="./jacket.jpg" />
+            <div>
+              <h4>Jacket</h4>
+              <ul>
+                <li>Size:37</li>
+                <li>Color: Gary</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item__qty">
+            <button>-</button>
+            <input value="1" />
+            <button>+</button>
+          </div>
+          <div class="total">$ 30.00</div>
+        </div>
+        <div class="total__price">
+          <h4>Total:</h4>
+          <p>
+            $
+            <span id="totalPrice">60.00</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

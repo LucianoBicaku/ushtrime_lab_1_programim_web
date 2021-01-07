@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      tr,
+      td {
+        border: 1px solid rgb(22, 22, 22);
+        padding: 3px;
+      }
+      #checked {
+        display: flex;
+        justify-content: center;
+        border: none;
+      }
+      input {
+        border: none;
+        padding: 5px 0px;
+        outline: none;
+        text-align: right;
+      }
+      .result {
+        text-align: right;
+      }
+      button {
+        border-radius: 5px;
+        padding: 0px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td>#</td>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Discount</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <select>
+              <option value="Computer">Computer</option>
+              <option value="Laptop">Laptop</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Monitor">Monitor</option>
+            </select>
+          </td>
+          <td><input type="number" min="1" /></td>
+          <td><input type="number" min="1" style="width: 80px" /></td>
+          <td id="checked"><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <select>
+              <option value="Computer">Computer</option>
+              <option value="Laptop">Laptop</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Monitor">Monitor</option>
+            </select>
+          </td>
+          <td><input type="number" min="1" /></td>
+          <td><input type="number" min="1" style="width: 80px" /></td>
+          <td id="checked"><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            <select>
+              <option value="Computer">Computer</option>
+              <option value="Laptop">Laptop</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Monitor">Monitor</option>
+            </select>
+          </td>
+          <td><input type="number" min="1" /></td>
+          <td><input type="number" min="1" style="width: 80px" /></td>
+          <td id="checked"><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            <select>
+              <option value="Computer">Computer</option>
+              <option value="Laptop">Laptop</option>
+              <option value="Tablet">Tablet</option>
+              <option value="Monitor">Monitor</option>
+            </select>
+          </td>
+          <td><input type="number" min="1" /></td>
+          <td><input type="number" min="1" style="width: 80px" /></td>
+          <td id="checked"><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="result">10.33</td>
+          <td class="result">12.00</td>
+          <td></td>
+        </tr>
+      </table>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

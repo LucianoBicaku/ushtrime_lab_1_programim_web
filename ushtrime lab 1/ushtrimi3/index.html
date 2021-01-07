@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Student Reistration Form</div>
+      <div class="buttons">
+        <button>Sign up</button>
+        <button>Log In</button>
+      </div>
+      <div>
+        <form>
+          <div class="input-wrapper">
+            <label for="name">First Name</label>
+            <input placeholder="Enter your first name" type="text" id="name" />
+          </div>
+          <div class="input-wrapper">
+            <label for="lastname">First Lastname</label>
+            <input
+              placeholder="Enter your last name"
+              type="text"
+              id="lastname"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input placeholder="Enter your email" type="email" id="email" />
+          </div>
+          <div class="input-wrapper">
+            <label for="password">Password</label>
+            <input
+              placeholder="Enter your Password"
+              type="password"
+              id="password"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="configPass">Config Password</label>
+            <input
+              placeholder="Confirm your password"
+              type="password"
+              id="configPass"
+            />
+          </div>
+          <div class="input-wrapper">
+            <p>Gender</p>
+            <div class="gender">
+              <div>
+                <input type="radio" id="male" /><label for="male">Male</label>
+              </div>
+              <div>
+                <input type="radio" id="female" /><label for="female"
+                  >Female</label
+                >
+              </div>
+              <div>
+                <input type="radio" id="other" /><label for="other"
+                  >Other</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <p>Date og birth</p>
+            <input type="date" id="date" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
